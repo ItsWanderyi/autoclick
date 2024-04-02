@@ -1,0 +1,32 @@
+
+{
+  "buttons": {
+    "but_autoclick": "q",
+    "but_autozaj": "e",
+    "but_autozona": "p",
+    "but_off": "d"
+  },
+  "clicks": {
+    "left_or_right": "left",
+    "time_autoclick": 1
+  },
+  "zone": {
+    "x1": 100,
+    "x2": 600,
+    "y1": 300,
+    "y2": 900
+  },
+  "range_clicks": {
+    "click_1": 7,
+    "click_2": 11
+  },
+  "range_delays": {
+    "time_1": 0.4,
+    "time_2": 0.6
+  },
+  "work_status": {
+    "work_click": false,
+    "work_zaj": false,
+    "work_zona": false
+  }
+}
