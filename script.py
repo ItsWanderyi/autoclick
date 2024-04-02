@@ -48,7 +48,6 @@ def auto_click():
 def auto_zaj():
    global work_zaj
    work_zaj = True
-   print("work True")
     
 def off():
    global work_zaj, work_click, work_zona
@@ -57,7 +56,6 @@ def off():
    if work_zaj == True:
        mouse.release(button=left_or_right)
        work_zaj = False
-       print('зажим офф')
     
     
 keyboard.add_hotkey(but_autoclick, auto_click)
@@ -66,7 +64,6 @@ keyboard.add_hotkey(but_autozona, auto_zona)
 keyboard.add_hotkey(but_off, off) 
 while True:
    while work_click:
-       print('click')
        mouse.click(left_or_right)
        time.sleep(time_autoclick)
        
@@ -82,6 +79,5 @@ while True:
 
    
    if work_zaj == True:
-       print('зажим')
        mouse.press(button=left_or_right) 
        time.sleep(5)
