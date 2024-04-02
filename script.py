@@ -34,7 +34,7 @@ work_zona = data['work_status']['work_zona']
 
 
 left_or_right = "left"
-time_autoclick = 1 # время между кликами (автокликер)
+time_autoclick = 1 # время между кликами (автокликер).
    
 def auto_zona():
    global work_zona
